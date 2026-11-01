@@ -1,0 +1,32 @@
+# 数据（原始/派生一律不提交）
+electricity_price_course_data/
+data/
+*.csv
+*.zip
+*.xlsx
+
+# 但报告要引用的结果表要提交
+!reports/tables/*.csv
+
+# 输出与缓存
+outputs/
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+.pytest_cache/
+
+# 环境与 IDE（含绝对路径，禁提交）
+.conda/
+.venv/
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+
+models/
+*.joblib
+
